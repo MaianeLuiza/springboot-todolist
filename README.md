@@ -1,5 +1,4 @@
 # TODO List
-___
 
 Esta API gerencia tarefas através da implementação de um CRUD completo.
 
@@ -10,8 +9,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 * [IntelliJ IDEA: Para desenvolvimento do projeto](https://www.jetbrains.com/idea/download/?section=windows)
 * [MySQL 8.0.36: Banco de dados utilizado utilizado para armazenar as informações da aplicação](https://dev.mysql.com/downloads/installer/)
 
-## Tecnologias utilizadas 
-___
+## Tecnologias utilizadas
 
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
@@ -20,7 +18,6 @@ ___
 * [MySQL](https://dev.mysql.com/downloads/)
 
 ## Práticas Adotadas
-___
 
 * SOLID, DRY, YAGNI, KISS
 * API REST
@@ -30,17 +27,23 @@ ___
 * Geração automática do Swagger com a OpenAPI 3
 
 ## Como Executar
-___
 
-* Clonar repositório
+* Clonar repositório git
 * Construir o projeto:
 
+```
+./mvnw clean package
+```
+
 * Executar a aplicação:
+```
+java -jar target/todolist-0.0.1-SNAPSHOT.jar
+```
+
 
 A aplicação poderá ser acessada em [localhost:8080](). O Swagger poderá ser visualizado em [localhost:8080/swagger-ui.html]()
 
 ## API Endpoints
-___
 
 Para fazer as requisições HTTP abaixo, foi utilizada a ferramenta [Postman](https://www.postman.com/):
 
